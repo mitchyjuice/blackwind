@@ -1,0 +1,47 @@
+body {
+    background-color: coral;
+}
+
+a:link { color: whitesmoke; }
+a:visited { color: black; }
+a:hover { color: aqua; }
+a:active { color: rosybrown; }
+
+a:link { text-decoration: none;}
+a:link { justify-content: center;}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 70px;
+    font-family: "lucida console", monospace;
+    -webkit-text-stroke: black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: "courier new", monospace;
+    -webkit-text-stroke: black;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    font-family: "courier new", monospace;
+    -webkit-text-stroke: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
