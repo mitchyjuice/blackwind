@@ -10,6 +10,24 @@ a:active { color: rosybrown; }
 a:link { text-decoration: none;}
 a:link { justify-content: center;}
 
+#navbar{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(133, 229, 229);
+
+}
+
+#navbar a {
+    color:rgb(62, 38, 185);
+    font-size:30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar a:hover{
+    color:white;
+}
+
 
 
 h1 {
